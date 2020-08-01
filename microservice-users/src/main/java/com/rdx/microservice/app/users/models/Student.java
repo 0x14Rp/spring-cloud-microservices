@@ -16,7 +16,6 @@ public class Student {
     private String  email;
 
     @Column(name = "create_at")
-    @Temporal(TemporalType.TIMESTAMP)
     private Instant createAt;
 
     public Long getId() {
